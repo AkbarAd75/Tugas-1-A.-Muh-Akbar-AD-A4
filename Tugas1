@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Tugas1{
+    public static void main(String[] args){
+        String nama;
+        String stambuk;
+        String fakultas;
+        
+         Scanner keyboard = new Scanner(System.in);
+
+        System.out.print("Nama    : ");
+        nama = keyboard.nextLine();
+        System.out.print("stambuk : ");
+       stambuk = keyboard.nextLine();
+        System.out.print("fakultas: ");
+       fakultas = keyboard.nextLine();
+       System.out.println("--------------------");
+        System.out.println("nama     : " + nama);
+        System.out.println("stambuk  : " + stambuk);
+        System.out.println("fakultas : " + fakultas );
+    }
+}
